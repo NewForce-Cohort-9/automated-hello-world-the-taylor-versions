@@ -1,4 +1,16 @@
+//potential country properties:
+/*
+description: string; 
+details: string; 
+mainImage: string; 
+foodImage: string; 
+landmarkImage: string;
+historicalFacts: string[]; 
+citizen: {name: string, details: string, country: string}
+*/
+
 export const database = {
+// <<<<<<< HEAD
   italy: {},
   egypt: {
 
@@ -17,6 +29,14 @@ export const database = {
   // citizen: {name: string, details: string, country: string}
 
   },
-  scotland: {},
-  canada: {},
+// =======
+//   italy: {
+//     name: "Italy",
+//     description: "Description here",
+//     //...etc
+//   },
+//   egypt: {},
+// >>>>>>> main
+//   scotland: {},
+//   canada: {},
 };
