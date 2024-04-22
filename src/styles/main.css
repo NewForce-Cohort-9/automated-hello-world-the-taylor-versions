@@ -18,5 +18,49 @@ body {
 /* END CANADA */
 
 /* BEGIN EGYPT */
+.egypt__div {
+  font-size: 70px;
+  text-align: center;
+  font-family: papyrus,fantasy;
+}
 
+.egypt__cityName {
+  font-size: 45px;
+  font-family: papyrus,fantasy;
+}
+
+.egypt__landmark {
+  font-size: 45px;
+  font-family: papyrus,fantasy;
+}
+
+.egypt__citizen {
+  font-size: 45px;
+  font-family: papyrus,fantasy;
+}
+
+.egypt__food {
+  font-size: 45px;
+  font-family: papyrus,fantasy;
+}
+
+.city__image {
+height: 500px;
+width: auto;
+}
+
+.citizen__image {
+  height: 500px;
+  width: auto;
+  }
+
+.fact__image {
+    height: 500px;
+    width: auto;
+    }
+
+.food__image {
+      height: 500px;
+      width: auto;
+      }
 /* END EGYPT */

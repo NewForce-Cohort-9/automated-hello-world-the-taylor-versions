@@ -1,4 +1,5 @@
 import { ItalyWhole } from "../italy/italy.js";
+import { EgyptWhole } from "../egypt/egypt.js";
 
 const mainContainer = document.querySelector("#global-container");
 
@@ -8,3 +9,4 @@ const scotlandContainer = document.querySelector("#scotland");
 const canadaContainer = document.querySelector("#canada");
 
 italyContainer.innerHTML = ItalyWhole();
+egyptContainer.innerHTML = EgyptWhole();
