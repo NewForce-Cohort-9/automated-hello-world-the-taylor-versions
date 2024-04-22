@@ -1,6 +1,7 @@
 /* BEGIN GLOBAL */
 body {
   background: lightblue;
+
 }
 
 /* END GLOBAL */
@@ -10,6 +11,9 @@ body {
 /* END ITALY */
 
 /* BEGIN SCOTLAND */
+.scotland__citizenImage{
+  width: 10em;
+}
 
 /* END SCOTLAND */
 
