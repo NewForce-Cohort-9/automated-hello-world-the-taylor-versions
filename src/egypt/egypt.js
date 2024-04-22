@@ -4,7 +4,7 @@ import { database } from "../data/database.js";
 
 const { egypt } = database;
 
-const EgyptHeader = () => {
+export const EgyptWhole = () => {
   return `
     <div class="egypt__div"> ${egypt.name} </div>
     <div class="egypt__detail1"> ${egypt.details.general1} </div>
@@ -23,12 +23,6 @@ const EgyptHeader = () => {
     <div class="egypt__food"> ${egypt.food.name} </div>
     <div class="egypt__foodInfo"> ${egypt.food.description} </div>
     <div><img  class="food__image image--card" src="${egypt.food.image}" /></div>
-    `
-};
-
-export const EgyptWhole = () => {
-  return `
-    ${EgyptHeader()}
     MORE CONTENT HERE
     `;
 };

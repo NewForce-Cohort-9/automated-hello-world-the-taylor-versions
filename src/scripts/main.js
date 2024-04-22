@@ -1,4 +1,5 @@
 import { ItalyWhole } from "../italy/italy.js";
+import { EgyptWhole } from "../egypt/egypt.js";
 
 const mainContainer = document.querySelector("#global-container");
 const navbar = document.querySelector(".navbar");
