@@ -59,9 +59,6 @@ const navbar = document.querySelector(".navbar");
 const italyContainer = document.querySelector("#italy");
 italyContainer.innerHTML = ItalyWhole();
 
-const scotlandContainer = document.querySelector("#scotland");
-
-
 handleNavClickEvents();
 handleBackToHomeClick();
 canadaContainer.innerHTML = canadaWholeHtml();

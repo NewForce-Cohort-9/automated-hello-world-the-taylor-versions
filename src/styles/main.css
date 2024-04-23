@@ -252,7 +252,6 @@ body {
   font-size: 40px;
 
 }
-.celebrity__card,.city__card,.landmark__card {
 .celebrity__card, .city__card, .landmark__card{
   left: 0;
   display: flex;
@@ -367,8 +366,6 @@ body {
   font-size: 28px;
 }
 .landmark__image {
-  width: 15em;
-.landmark__image{
   width: 25em;
   border-radius: 10em;
 }
