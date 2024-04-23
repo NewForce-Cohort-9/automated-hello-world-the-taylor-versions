@@ -20,6 +20,7 @@ export const database = {
   },
   egypt: {},
   scotland: {
+    mainImage: "https://us.123rf.com/450wm/nataliahubbert/nataliahubbert1508/nataliahubbert150800001/43561331-bonnie-scotland-cartoon-collection-funny-scottish-man-with-whiskey.jpg",
     celebrities: [
       {
         id:1, 
@@ -59,6 +60,12 @@ export const database = {
         details: "The Glenfinnan Viaduct is a railway viaduct on the West Highland Line in Glenfinnan, Inverness-shire, Scotland, built from 1897 to 1901. Located at the top of Loch Shiel in the West Scottish Highlands, the viaduct overlooks the Glenfinnan Monument and the waters of Loch Shiel.",
         image: "https://d1xw84ija6gjgy.cloudfront.net/production/2784c762da784d9adece645ff9e61637/conversions/720p.jpg",
       },
+      {
+        id:4,
+        name: "Also.. HIGHLAND COWS!!",
+        details:"The Highland is a Scottish breed of rustic cattle. It originated in the Scottish Highlands and the Western Islands of Scotland and has long horns and a long shaggy coat. It is a hardy breed, able to withstand the intemperate conditions in the region",
+        image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/cute-highland-cow-1-wall-art-anitas-and-bellas-art.jpg",    
+      },
       ],
     cities: [
       {
@@ -79,7 +86,9 @@ export const database = {
         details: "Edinburgh is Scotland's compact, hilly capital. It has a medieval Old Town and elegant Georgian New Town with gardens and neoclassical buildings. Looming over the city is Edinburgh Castle, home to Scotland’s crown jewels and the Stone of Destiny, used in the coronation of Scottish rulers. Arthur’s Seat is an imposing peak in Holyrood Park with sweeping views, and Calton Hill is topped with monuments and memorials. ",
         image: "https://a.cdn-hotels.com/gdcs/production73/d1723/35b8f7e3-14c4-4d53-ae2f-5f7f6adb6aac.jpg?impolicy=fcrop&w=800&h=533&q=medium",
       },
+     
       ]
+
   },
   canada: {},
 };
