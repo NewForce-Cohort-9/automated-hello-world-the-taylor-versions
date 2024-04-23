@@ -18,6 +18,6 @@ export const italyLandsmarks = [
     image:
       "https://cdn.britannica.com/63/153463-050-06B6270D/Grand-Canal-Venice.jpg",
     description:
-      "The Grand Canal is a channel in Venice, Italy. It forms one of the major water-traffic corridors in the city.",
+      "The Grand Canal is a channel in Venice, Italy. It forms one of the major water-traffic corridors in the city. The Grand Canal is the longest canal or artificial river in the world and a UNESCO World Heritage Site.",
   },
 ];

@@ -1,18 +1,21 @@
 import { database } from "../data/database.js";
+import { ItalyLandmarks } from "./italyLandmarks.js";
+import { ItalyCelebs } from "./italyCelebs.js";
+import { ItalyCities } from "./italyCities.js";
 
 const { italy } = database;
 
-const ItalyHeader = () => {
+const ItalyHeader = (headerText, textAlign) => {
   return `
     <h1
+    style="text-align: ${textAlign}"
     class="italy__header"
-    >${italy.name}</h1>`;
+    >${headerText}</h1>`;
 };
 
 const ItalyFlex = () => {
   return `
   <div class="italy__inner">
-
   <img src="${italy.mainImage}" class="italy__main-img" />
   <div class="italy__para-ctn"> 
   <p class="italy__para">
@@ -29,7 +32,13 @@ const ItalyFlex = () => {
 
 export const ItalyWhole = () => {
   return `
-  ${ItalyHeader()}
+  ${ItalyHeader(italy.name, "center")}
   ${ItalyFlex()}
+  ${ItalyHeader("Landmarks", "start")}
+  ${ItalyLandmarks()}
+  ${ItalyHeader("Cities", "center")}
+  ${ItalyCities()}
+  ${ItalyHeader("Italian Celebrities (sort of)", "start")}
+  ${ItalyCelebs()}
   `;
 };

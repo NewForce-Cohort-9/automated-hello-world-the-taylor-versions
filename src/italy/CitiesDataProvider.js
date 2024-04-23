@@ -16,7 +16,7 @@ export const italyCities = [
   {
     name: "Sicily",
     image:
-      "https://touringhighlights.com/wp-content/uploads/2022/07/Sicily-Italy.jpg",
+      "https://www.worldatlas.com/upload/a1/74/06/cefalu-town-sicily-italy-andrew-mayovskyy.jpg",
     description:
       "Sicily is unlike anywhere else in Italy. Sure, the Mediterranean island offers everything that makes Italy a major destination: beaches, wine, food, and architecture—but all with a Sicilian twist. Rustic fare makes the most of local produce from rich cannoli to crispy creamy arancini.",
   },
