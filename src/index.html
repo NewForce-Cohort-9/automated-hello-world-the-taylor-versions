@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <main class="global-container">
+      <header class="global-header">
+        <nav class="navbar">
+          <div class="navbar__div">
+            <a id="navbar-home" class="navbar__home">
+              <img src="https://pbs.twimg.com/media/EeRc0mzXsAIwIqf.jpg" />
+            </a>
+            <div class="navbar__link-ctn">
+              <ul id="navbar-ul" class="navbar__list">
+                <li>
+                  <a name="italy" id="italy-anchor" class="navbar__anchor"
+                    >Italy</a
+                  >
+                </li>
+                <li>
+                  <a name="egypt" id="egypt-anchor" class="navbar__anchor"
+                    >Egypt</a
+                  >
+                </li>
+                <li>
+                  <a name="scotland" id="scotland-anchor" class="navbar__anchor"
+                    >Scotland</a
+                  >
+                </li>
+                <li>
+                  <a name="canada" id="canada-anchor" class="navbar__anchor"
+                    >Canada</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button class="navbar__btn">Surprise</button>
+          </div>
+        </nav>
+      </header>
+      <div class="country-section-wrapper">
+        <section id="home">
+          <div class="home__grid">
+            <!-- ITEMS HERE -->
+          </div>
+        </section>
+        <div id="section-hider" class="hide-all-countries">
+          <section id="canada"></section>
+          <section id="egypt"></section>
+          <section id="italy"></section>
+          <section id="scotland"></section>
+        </div>
+      </div>
+      <footer></footer>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
