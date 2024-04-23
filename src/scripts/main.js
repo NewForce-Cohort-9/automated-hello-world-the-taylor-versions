@@ -1,10 +1,13 @@
 import { ItalyWhole } from "../italy/italy.js";
 import { EgyptWhole } from "../egypt/egypt.js";
-import { handleNavClickEvents, handleBackToHomeClick } from "./fake-router.js";
+
+import {
+  handleNavClickEvents,
+  handleBackToHomeClick,
+  handleReadMoreBtnEvents,
+} from "./fake-router.js";
 import { HomeCards } from "./home.js";
 
-const mainContainer = document.querySelector("#global-container");
-const navbar = document.querySelector(".navbar");
 const home = document.querySelector("#home");
 
 const italyContainer = document.querySelector("#italy");
