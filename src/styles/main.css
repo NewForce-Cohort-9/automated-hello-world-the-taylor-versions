@@ -376,6 +376,13 @@ body {
 
 /* BEGIN EGYPT */
 
+.citizen__image {
+  height: 300px;
+  width: auto;
+}
 
+.citizen__name {
+  font-size: 45px;
+}
 
 /* END EGYPT */
