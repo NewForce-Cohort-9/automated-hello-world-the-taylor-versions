@@ -6,11 +6,13 @@ import { scotlandCity } from "../scotland/scotlandCity.js";
 import { scotlandLandmark } from "../scotland/scotlandLandmark.js";
 
 
-import { handleNavClickEvents, handleBackToHomeClick } from "./fake-router.js";
+import {
+  handleNavClickEvents,
+  handleBackToHomeClick,
+  handleReadMoreBtnEvents,
+} from "./fake-router.js";
 import { HomeCards } from "./home.js";
 
-const mainContainer = document.querySelector("#global-container");
-const navbar = document.querySelector(".navbar");
 const home = document.querySelector("#home");
 
 const italyContainer = document.querySelector("#italy");
@@ -34,3 +36,5 @@ italyContainer.innerHTML = ItalyWhole();
 scotlandCelebrityContainer.innerHTML = scotlandCelebrity();
 scotlandCityContainer.innerHTML = scotlandCity();
 scotlandLandmarkContainer.innerHTML = scotlandLandmark();
+
+handleReadMoreBtnEvents();
