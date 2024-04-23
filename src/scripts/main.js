@@ -1,17 +1,14 @@
-import { ItalyWhole } from "../italy/italy.js";
-
-//SCOTLAND
-import { scotlandCelebrity} from "../scotland/scotlandCelebrity.js";
-import { scotlandCity } from "../scotland/scotlandCity.js";
-import { scotlandLandmark } from "../scotland/scotlandLandmark.js";
-
-
 import {
   handleNavClickEvents,
   handleBackToHomeClick,
   handleReadMoreBtnEvents,
 } from "./fake-router.js";
 import { HomeCards } from "./home.js";
+import { ItalyWhole } from "../italy/italy.js";
+//SCOTLAND
+import { scotlandCelebrity } from "../scotland/scotlandCelebrity.js";
+import { scotlandCity } from "../scotland/scotlandCity.js";
+import { scotlandLandmark } from "../scotland/scotlandLandmark.js";
 
 const home = document.querySelector("#home");
 
