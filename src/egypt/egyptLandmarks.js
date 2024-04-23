@@ -3,24 +3,21 @@
 import { getEgyptLandmarks } from "../data/operations.js";
 
 export const egyptLandmark = () => {
-
   const landmarks = getEgyptLandmarks();
 
-let htmlString = '<article class>="landmarkContainer">';
+  let htmlString = '<article class="landmarkContainer">';
 
-for (let landmark of landmarks) {
-
-  htmlString += `<section class="landmark__card">
+  for (let landmark of landmarks) {
+    htmlString += `<section class="landmark__card">
     <div><img class = "landmark__image  image--card" src="${landmark.image}"</div>
     <div class = "landmark__name"> ${landmark.name}</div>
   
   </section>`;
-}
+  }
 
-htmlString += `</article>`;
+  htmlString += `</article>`;
 
-return htmlString;
-
+  return htmlString;
 };
 
 // export const EgyptWhole = () => {

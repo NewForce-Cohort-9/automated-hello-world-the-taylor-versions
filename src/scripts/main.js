@@ -3,7 +3,7 @@ import {
   handleBackToHomeClick,
   handleReadMoreBtnEvents,
 } from "./fake-router.js";
-
+import { HomeCards } from "./home.js";
 import { ItalyWhole } from "../italy/italy.js";
 import { scotlandCelebrity } from "../scotland/scotlandCelebrity.js";
 import { scotlandCity } from "../scotland/scotlandCity.js";
@@ -16,9 +16,11 @@ import { cityList } from "../canada/citiesList.js";
 import { celebrityList } from "../canada/celebritiesList.js";
 import { landmarkList } from "../canada/landmarksList.js";
 
-import { HomeCards } from "./home.js";
-
 const home = document.querySelector("#home");
+home.innerHTML = HomeCards();
+
+handleNavClickEvents();
+handleBackToHomeClick();
 
 const egyptContainer = document.querySelector("#egypt");
 const canadaContainer = document.querySelector("#canada");
@@ -27,12 +29,6 @@ const italyContainer = document.querySelector("#italy");
 const scotlandCelebrityContainer = document.querySelector("#scotlandCelebrity");
 const scotlandCityContainer = document.querySelector("#scotlandCity");
 const scotlandLandmarkContainer = document.querySelector("#scotlandLandmark");
-
-home.innerHTML = HomeCards();
-
-handleNavClickEvents();
-handleBackToHomeClick();
-handleReadMoreBtnEvents();
 
 italyContainer.innerHTML = ItalyWhole();
 
@@ -50,3 +46,5 @@ scotlandLandmarkContainer.innerHTML = scotlandLandmark();
 egyptContainer.innerHTML += egyptLandmark();
 egyptContainer.innerHTML += egyptCitizen();
 egyptContainer.innerHTML += egyptCity();
+
+handleReadMoreBtnEvents();
