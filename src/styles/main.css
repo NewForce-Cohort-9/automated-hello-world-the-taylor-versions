@@ -118,8 +118,8 @@ body {
   width: 100%;
   align-items: center;
   height: 100%;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 #home {
@@ -145,7 +145,7 @@ body {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
-.home__inner {
+.home__card-inner {
   padding: 1.25rem;
 }
 
@@ -156,6 +156,7 @@ body {
   font-weight: 700;
   letter-spacing: -0.025em;
   color: #111827;
+  text-transform: capitalize;
 }
 .home__card img {
   width: 382px;
@@ -171,7 +172,7 @@ body {
 
 .home__card button {
   display: inline-flex;
-  padding: 0.5rem 0.5rem 0.75rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   align-items: center;
   border-radius: 0.5rem;
   font-size: 0.875rem;
@@ -183,17 +184,9 @@ body {
   border: none;
 }
 
-.owned__article button:hover {
+.home__card button:hover {
   background-color: #1e40af;
   cursor: pointer;
-}
-
-.owned__section {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .home__card-ctn {
@@ -206,6 +199,11 @@ body {
 /* END GLOBAL */
 
 /* BEGIN ITALY */
+#italy {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .italy__header {
   text-align: center;
   color: black;
