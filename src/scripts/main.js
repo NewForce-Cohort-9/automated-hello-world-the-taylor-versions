@@ -23,10 +23,10 @@ const scotlandLandmarkContainer = document.querySelector("#scotlandLandmark");
 const canadaContainer = document.querySelector("#canada");
 
 home.innerHTML = HomeCards();
+italyContainer.innerHTML = ItalyWhole();
 
 handleNavClickEvents();
 handleBackToHomeClick();
-italyContainer.innerHTML = ItalyWhole();
 
 //SCOTLAND
 scotlandCelebrityContainer.innerHTML = scotlandCelebrity();
