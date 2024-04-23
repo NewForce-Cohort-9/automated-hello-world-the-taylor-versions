@@ -5,28 +5,35 @@ import {
 } from "./fake-router.js";
 import { HomeCards } from "./home.js";
 import { ItalyWhole } from "../italy/italy.js";
-//SCOTLAND
 import { scotlandCelebrity } from "../scotland/scotlandCelebrity.js";
 import { scotlandCity } from "../scotland/scotlandCity.js";
 import { scotlandLandmark } from "../scotland/scotlandLandmark.js";
+import { canadaWholeHtml } from "../canada/canada.js";
+import { cityList } from "../canada/citiesList.js";
+import { celebrityList } from "../canada/celebritiesList.js";
+import { landmarkList } from "../canada/landmarksList.js";
 
 const home = document.querySelector("#home");
-
-const italyContainer = document.querySelector("#italy");
 const egyptContainer = document.querySelector("#egypt");
+const canadaContainer = document.querySelector("#canada");
+const italyContainer = document.querySelector("#italy");
 
 //SCOTLAND
 const scotlandCelebrityContainer = document.querySelector("#scotlandCelebrity");
 const scotlandCityContainer = document.querySelector("#scotlandCity");
 const scotlandLandmarkContainer = document.querySelector("#scotlandLandmark");
 
-const canadaContainer = document.querySelector("#canada");
-
 home.innerHTML = HomeCards();
-italyContainer.innerHTML = ItalyWhole();
 
 handleNavClickEvents();
 handleBackToHomeClick();
+
+italyContainer.innerHTML = ItalyWhole();
+
+canadaContainer.innerHTML = canadaWholeHtml();
+canadaContainer.innerHTML += cityList();
+canadaContainer.innerHTML += celebrityList();
+canadaContainer.innerHTML += landmarkList();
 
 //SCOTLAND
 scotlandCelebrityContainer.innerHTML = scotlandCelebrity();
