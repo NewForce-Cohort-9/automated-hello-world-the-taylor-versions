@@ -1,6 +1,7 @@
 /* BEGIN GLOBAL */
 body {
   background: lightblue;
+
 }
 .navbar {
   background: white;
@@ -205,66 +206,25 @@ body {
 }
 
 .italy__header {
+  text-align: center;
   color: black;
   font-size: 4rem;
 }
 
 .italy__main-img {
-  width: 400;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 
 .italy__inner {
-  max-width: 80rem;
-  padding: 2.5rem 2.5rem 5rem 2.5rem;
-  height: 100%;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-}
-
-.italy__para-ctn {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.italy__para {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-.italy__landmark-ctn {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
-  row-gap: 2rem;
   width: 100%;
-  margin-bottom: 5rem;
-}
-
-.italy__city-card-ctn {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin-bottom: 5rem;
-}
-
-.italy__city-card {
-  display: flex;
-  max-width: 80rem;
-  border: 1px solid #e5e7eb;
-  background-color: #ffffff;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
-
-.italy__city-card img {
-  width: 400px;
-  height: 300px;
 }
 
 /* END ITALY */
@@ -278,6 +238,7 @@ body {
 #scotlandTitle {
   background-image: url("https://m.media-amazon.com/images/I/71fVxxJsXxL._AC_UF1000,1000_QL80_DpWeblab_.jpg");
   color: chartreuse;
+  color:chartreuse;
   font-size: 150px;
   font-weight: bold;
   font-style: italic;
@@ -289,24 +250,26 @@ body {
   border-radius: 25px;
   text-align: center;
   font-size: 40px;
+
 }
 .celebrity__card,.city__card,.landmark__card {
+.celebrity__card, .city__card, .landmark__card{
   left: 0;
   display: flex;
   flex-direction: row;
 }
-#celebrityTitle {
-  color: rgb(228, 138, 20);
+#celebrityTitle{
+  color:rgb(228, 138, 20);
   font-size: 40px;
   text-align: center;
-  background-color: rgb(71, 145, 120);
+  background-color:rgb(71, 145, 120) ;
   border-style: dotted;
-  border-color: rgb(228, 138, 20);
+  border-color:rgb(228, 138, 20) ;
   margin-left: 10em;
   margin-right: 10em;
 }
-.celebrity__card {
-  background-color: rgb(246, 39, 122);
+.celebrity__card{
+  background-color:  rgb(246, 39, 122);
   border-radius: 2px;
   text-align: center;
   margin-top: 20px;
@@ -315,65 +278,65 @@ body {
   margin-left: 80px;
   padding: 25px 50px;
 }
-.celebrity__name {
-  color: rgb(251, 201, 0);
+.celebrity__name{
+  color:rgb(251, 201, 0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 65px;
   padding: 10px 40px;
 
 }
-.celebrity__details {
-  color: rgb(241, 225, 197);
+.celebrity__details{
+  color:rgb(241, 225, 197);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 10px 40px;
 
+  font-size: 15px;
+
 }
-.celebrity__image {
+.celebrity__image{
   width: 10em;
   border-radius: 25%;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
 }
-#cityTitle {
-  color: rgba(188, 144, 236, 0.953);
+#cityTitle{
+  color:rgba(188, 144, 236, 0.953);
   font-size: 50px;
   text-align: center;
-  background-color: rgb(71, 138, 116);
+  background-color:  rgb(71, 138, 116);
   border-style: dotted;
   border-color: rgba(188, 144, 236, 0.953);
   margin-left: 10em;
   margin-right: 10em;
 }
-.city__card {
-  background-color: rgb(41, 230, 12);
+.city__card{
+  background-color:  rgb(41, 230, 12);
   border-radius: 2px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 80px;
-  margin-left: 80px;
-  padding: 25px 50px;
-
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 15%;
+  margin-left:30px;
 }
-.city__name {
-  color: rgb(89, 91, 245);
+.city__name{
+  color:rgb(89, 91, 245);
   font-family: "Times New Roman", Times, serif;
   font-size: 65px;
   padding: 10px 40px;
 }
-.city__details {
-  color: rgb(18, 0, 110);
+.city__details{
+  color:rgb(18, 0, 110);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   padding: 10px 40px;
 }
-.city__image {
+.city__image{
   width: 20em;
   border-radius: 50%;
 }
-#landmarkTitle {
-  color: rgb(239, 111, 75);
+#landmarkTitle{
+  color:rgb(239, 111, 75);
   font-size: 50px;
   text-align: center;
   background-color: rgb(69, 135, 113);
@@ -383,8 +346,8 @@ body {
   margin-right: 10em;
   
 }
-.landmark__card {
-  background-color: rgb(245, 253, 3);
+.landmark__card{
+  background-color:  rgb(245, 253, 3);
   border-radius: 2px;
   text-align: center;
   margin-top: 20px;
@@ -393,22 +356,24 @@ body {
   margin-left: 80px;
   padding: 25px 50px;
 }
-.landmark__name {
-  color: rgb(5, 156, 138);
+.landmark__name{
+  color:rgb(5, 156, 138);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
-.landmark__details {
-  color: rgb(38, 106, 91);
+.landmark__details{
+  color:rgb(38, 106, 91);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
 }
 .landmark__image {
   width: 15em;
+.landmark__image{
+  width: 25em;
   border-radius: 10em;
 }
-#theEnd {
-  color: rgb(45, 232, 3);
+#theEnd{
+  color:rgb(45, 232, 3);
   font-size: 95px;
   text-align: center;
   background-image: url("https://m.media-amazon.com/images/I/71fVxxJsXxL._AC_UF1000,1000_QL80_DpWeblab_.jpg");
@@ -421,5 +386,14 @@ body {
 /* END CANADA */
 
 /* BEGIN EGYPT */
+
+.citizen__image {
+  height: 300px;
+  width: auto;
+}
+
+.citizen__name {
+  font-size: 45px;
+}
 
 /* END EGYPT */
