@@ -12,8 +12,10 @@ import { italyLandsmarks } from "../italy/LandmarkDataProvider.js";
 
 import { italyCelebritiesProvider } from "../italy/CelebritiesDataProvider.js";
 
+//import { egyptCity } from "../egypt/egyptCities.js";
 
-const database = {
+
+export const database = {
 
   italy: {
     name: "Italy",
@@ -31,9 +33,13 @@ const database = {
         "https://static.planeat.eco/media/item_pics/gnocchi-di-patate-speck-taleggio-600x400.jpg",
     },
   },
+
+
   egypt: {
 
-    Cities: [
+    mainImage:"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTa8W1XIgVzi_IxqgW7F3y9LFXj-hxVcdqjnmI_6JyaMLgyXU5NYpbbSm5LOGZifGBC5BoVK9ghI325Wb8tSoyReCwtdytrZts_6poKOQ",
+
+    cities: [
     {
       name: "Cairo",
       population: "22.6 million",
@@ -50,7 +56,7 @@ const database = {
       image: "https://upload.wikimedia.org/wikipedia/commons/0/03/Giza-Nile.JPG",
     },
   ],
-    Landmarks: [
+    landmarks: [
     {
       name: "The Great Pyramids of Giza",
       image: "https://www.snexplores.org/wp-content/uploads/2019/11/860_main_GreatPyramid_0.gif",
@@ -65,7 +71,7 @@ const database = {
     },
   ],
 
-    Citizens: [
+    citizens: [
     {
       name: "Mohamed Salah",
       bio: "Professional Soccer player",
