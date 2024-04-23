@@ -4,7 +4,7 @@ export const scotlandLandmark = () => {
     
   const landmarks = getScotlandLandmarks();
 
-  let htmlString = '<article class="scotland">';
+  let htmlString = '<article class="landmarkContainer">';
 
   for (let landmark of landmarks) {
 

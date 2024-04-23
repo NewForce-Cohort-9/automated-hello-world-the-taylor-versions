@@ -4,7 +4,7 @@ export const scotlandCity = () => {
     
   const cities = getScotlandCities();
 
-  let htmlString = '<article class="scotland">';
+  let htmlString = '<article class="cityContainer">';
 
   for (let city of cities) {
 

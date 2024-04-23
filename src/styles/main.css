@@ -131,6 +131,120 @@ body {
 /* END ITALY */
 
 /* BEGIN SCOTLAND */
+#scotland {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhpHvG0NDqwECpVQALDAVURNacDOt2Fq5q1C6MfKl2&s");
+  background-color: #cccccc;
+}
+
+#scotlandTitle {
+  color:chartreuse;
+  font-size: 150px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#scotland, #scotlandCelebrity, #scotlandCity, #scotlandLandmark{
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+#celebrityTitle{
+  color:rgb(228, 138, 20);
+  font-size: 50px;
+  text-align: center;
+  border-style: dotted;
+  border-color: aquamarine;
+}
+.celebrity__card{
+  background-color:  rgb(246, 39, 122);
+  border-radius: 2px;
+  padding: 3px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.celebrity__name{
+  color:rgb(251, 201, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+}
+.celebrity__details{
+  color:rgb(241, 225, 197);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.celebrity__image{
+  width: 10em; 
+}
+#cityTitle{
+  color:rgba(155, 87, 227, 0.953);
+  font-size: 50px;
+  text-align: center;
+  border-style: dotted;
+  border-color: aquamarine;
+}
+.city__card{
+  background-color:  rgb(41, 230, 12);
+  border-radius: 2px;
+  padding: 3px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.city__name{
+  color:rgb(89, 91, 245);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+}
+.city__details{
+  color:rgb(18, 0, 110);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.city__image{
+  width: 10em;
+}
+#landmarkTitle{
+  color:rgb(239, 111, 75);
+  font-size: 50px;
+  text-align: center;
+  border-style: dotted;
+  border-color: aquamarine;
+}
+.landmark__card{
+  background-color:  rgb(245, 253, 3);
+  border-radius: 2px;
+  padding: 3px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.landmark__name{
+  color:rgb(5, 156, 138);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+}
+.landmark__details{
+  color:rgb(38, 106, 91);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+.landmark__image{
+  width: 10em;
+}
+#theEnd{
+  color:rgb(45, 232, 3);
+  font-size: 95px;
+  text-align: center;
+  border-style: dotted;
+  border-color: aquamarine;
+}
 
 /* END SCOTLAND */
 

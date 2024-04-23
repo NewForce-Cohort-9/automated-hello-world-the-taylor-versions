@@ -4,7 +4,7 @@ export const scotlandCelebrity = () => {
     
   const celebrities = getScotlandCelebrities();
 
-  let htmlString = '<article class="scotland">';
+  let htmlString = '<article class="celebrityContainer">';
 
   for (let celebrity of celebrities) {
 
