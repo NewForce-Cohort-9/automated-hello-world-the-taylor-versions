@@ -16,7 +16,9 @@ export const HomeCards = () => {
         </a>
         <div class="home__card-inner">
           <h2>${country}</h2>
-          <p>Learn more about the beautiful country of ${country}</p>
+          <p>Learn more about the beautiful country of 
+          <span style="text-transform: capitalize">${country}</span>
+          </p>
           <button 
           name="${country}"
           id="read-more-btn">Read more</button>
