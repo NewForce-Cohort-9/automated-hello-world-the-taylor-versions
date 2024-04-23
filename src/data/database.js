@@ -8,13 +8,18 @@ landmarkImage: string;
 historicalFacts: string[]; 
 citizen: {name: string, details: string, country: string}
 */
+import { italyLandsmarks } from "../italy/LandmarkDataProvider.js";
+
+import { italyCelebritiesProvider } from "../italy/CelebritiesDataProvider.js";
+
 
 export const database = {
 // <<<<<<< HEAD
   italy: {},
-  egypt: [
+  egypt: {
 
-    Cities = {
+    Cities: [
+    {
       name: "Cairo",
       population: "22.6 million",
       image: "https://media.cntraveler.com/photos/655cdf1d2d09a7e0b27741b5/16:9/w_1920,c_limit/Cairo%20Egypt_GettyImages-1370918272.jpg"
@@ -29,8 +34,9 @@ export const database = {
       population: "2.4 million",
       image: "https://upload.wikimedia.org/wikipedia/commons/0/03/Giza-Nile.JPG",
     },
-
-    Landmarks = {
+  ],
+    Landmarks: [
+    {
       name: "The Great Pyramids of Giza",
       image: "https://www.snexplores.org/wp-content/uploads/2019/11/860_main_GreatPyramid_0.gif",
     },
@@ -42,8 +48,10 @@ export const database = {
       name: "The Nile River",
       image: "https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638891298/EducationHub/photos/women-and-children-on-the-banks-of-the-nile.jpg",
     },
+  ],
 
-    Citizens = {
+    Citizens: [
+    {
       name: "Mohamed Salah",
       bio: "Professional Soccer player",
       image: "https://cdn.britannica.com/91/200591-050-95794068/Mohamed-Salah-Egyptian-skills-English-Premier-League-2018.jpg",
@@ -57,8 +65,9 @@ export const database = {
       name: "Abdel Fattah El-Sisi",
       bio: "President of Egypt",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/AbdelFattah_Elsisi.jpg/640px-AbdelFattah_Elsisi.jpg",
-    }
+    },
   ],
+},
     // name: "Egypt",
     // city: {name: "Cairo", 
     //         population: "22.6 million", 
@@ -89,9 +98,6 @@ export const database = {
   // historicalFacts: string[]; 
   // citizen: {name: string, details: string, country: string}
 
-import { italyLandsmarks } from "../italy/LandmarkDataProvider.js";
-
-import { italyCelebritiesProvider } from "../italy/CelebritiesDataProvider.js";
 
 export const database = {
   italy: {
@@ -121,3 +127,4 @@ export const database = {
 //   scotland: {},
 //   canada: {},
 };
+
