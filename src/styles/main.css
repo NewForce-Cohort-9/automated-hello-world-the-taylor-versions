@@ -2,7 +2,6 @@
 body {
   background: lightblue;
 }
-
 .navbar {
   background: white;
   position: sticky;
@@ -79,6 +78,11 @@ body {
   color: black;
 }
 
+.navbar__active-route {
+  color: red;
+  text-decoration: underline;
+}
+
 .navbar__btn {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -104,7 +108,7 @@ body {
 }
 
 .hide-home {
-  display: none;
+  display: none !important;
 }
 
 .country-section-wrapper {
@@ -118,13 +122,110 @@ body {
   margin-bottom: 6rem;
 }
 
+#home {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  row-gap: 2rem;
+}
+
+.home__card {
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  max-width: 24rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.home__inner {
+  padding: 1.25rem;
+}
+
+.home__card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #111827;
+}
+.home__card img {
+  width: 382px;
+  height: 255px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.home__card p {
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+  color: #374151;
+}
+
+.home__card button {
+  display: inline-flex;
+  padding: 0.5rem 0.5rem 0.75rem 0.75rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1d4ed8;
+  border: none;
+}
+
+.owned__article button:hover {
+  background-color: #1e40af;
+  cursor: pointer;
+}
+
+.owned__section {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home__card-ctn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  row-gap: 2rem;
+}
+
 /* END GLOBAL */
 
 /* BEGIN ITALY */
+.italy__header {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+}
 
-.italy {
-  font-size: 30rem;
-  color: red;
+.italy__main-img {
+  width: 200px;
+  height: 200px;
+}
+
+.italy__inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* END ITALY */
