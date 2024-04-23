@@ -73,6 +73,12 @@ export const database = {
         image:
           "https://d1xw84ija6gjgy.cloudfront.net/production/2784c762da784d9adece645ff9e61637/conversions/720p.jpg",
       },
+      {
+        id: 4,
+        name: "Also.. HIGHLAND COWS!!",
+        details:"The Highland is a Scottish breed of rustic cattle. It originated in the Scottish Highlands and the Western Islands of Scotland and has long horns and a long shaggy coat. It is a hardy breed, able to withstand the intemperate conditions in the region",
+        image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRIjDqZW-6Hp9hcC8q7PgWrKLYXBX-RTDLG1qiOx08PIPbNsranYjCFBA3U30iFvgLjf1Xo03NPwFLnzZY",
+      }
     ],
     cities: [
       {
