@@ -1,9 +1,13 @@
 import { italyLandsmarks } from "../italy/LandmarkDataProvider.js";
-import { italyCelebritiesProvider } from "../italy/CelebritiesDataProvider.js";
+import { italyCelebritiesProvider } from "../italy/CelebritiesDataProvider.js"; 
 import { italyCities } from "../italy/CitiesDataProvider.js";
 
-export const database = {
-  italy: {
+ export const database = {
+ 
+  
+
+
+ italy: {
     name: "Italy",
     description:
       "Italy, country of south-central Europe, occupying a peninsula that juts deep into the Mediterranean Sea. Italy comprises some of the most varied and scenic landscapes on Earth and is often described as a country shaped like a boot.",
@@ -107,5 +111,49 @@ export const database = {
       },
     ],
   },
-  canada: {},
-};
+  canada: {
+    Name: "Canada",
+    Description: "Canada is a diverse, progressive, peaceful and welcoming nation known for its pristine wilderness and stunning natural beauty. It’s vast and varied — a place for both bucket list adventure and sophisticated culture, Canada’s lively, multicultural cities contrast with the untouched wilderness at the edge of its urban centers. ",
+    Cities:[
+      {
+        name: "Toronto",
+        details: "Toronto is Canada’s largest city and a world leader in business, finance, technology, entertainment and culture. Its large population of immigrants from all over the globe has also made Toronto one of the most multicultural cities in the world.",
+        image: "https://i.ibb.co/D4Qd3Vq/toronto.jpg"
+      }
+    ],
+    Landmarks: [
+      {
+        name: "Mac the Moose",
+        details: "Mac the Moose is a steel and concrete sculpture of a moose in Moose Jaw, Saskatchewan. It is on the grounds of Moose Jaw's visitors' center, on the corner of E Thatcher Drive and the Trans-Canada Highway. It is claimed to be the world's largest moose at 10.36 metres tall and a weight of approximately 10 long tons.",
+        image: "https://i.ibb.co/y5DWpY4/mac-The-Moose.jpg"
+      }
+    ],
+    Celebrities: [
+      {
+        name: "Justin Bieber",
+        details: "Justin Bieber (born March 1, 1994, London, Ontario, Canada) Canadian singer and teen idol whose fresh-faced good looks and appealing pop songs sparked a global craze beginning in 2009.",
+        image: "https://cdn.britannica.com/82/182082-050-C006C642/Justin-Bieber-2013.jpg"
+      }
+
+    ]
+      
+    }
+
+    
+  }
+
+export const canadaWhole = () => {
+  return database.canada
+}
+
+export const getCities = () => {
+  return database.canada.Cities.map(city => ({...city}))
+}
+
+export const getLandmarks = () => {
+  return database.canada.Landmarks.map(landmark => ({...landmark}))
+}
+
+export const getCelebrities = () => {
+  return database.canada.Celebrities.map(celebrity => ({...celebrity}))
+}

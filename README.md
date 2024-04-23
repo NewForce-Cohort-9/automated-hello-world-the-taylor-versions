@@ -4,7 +4,7 @@ Your task in this group project is to use your newfound skills of automation to 
 
 Each city, each landmark, and each famous citizen must be represented in application state as objects. This means that you will need multiple separate data providers, list components, and HTML representation components for each page.
 
-A suggestion is to create multiple sub-directories under `scripts`. If, for example, your team chose Turkey, Morocco, Tanzania, and Indonesia, you would have the following main modules.
+A suggestion is to create multiple sub-directories under `scripts`. If, for example, your team chose Turkey, Morocco, Tanzania, and Indonesia, you would have the following main modules.cd 
 
 > **Note:** Do not make any properties on your resources that involve presentation - like class names, or HTML tags. Only the properties of the resource should be on each object.
 
